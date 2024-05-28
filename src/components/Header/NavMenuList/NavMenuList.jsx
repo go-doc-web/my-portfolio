@@ -1,5 +1,3 @@
-import React from "react";
-
 import { elementsNavMenu } from "../../../db/nav-menu-db";
 import { iconsNavMenu } from "../../../config/nav-menu-db.jsx";
 const itemsMenu = elementsNavMenu.filter((element) => element.isVisible);
