@@ -4,7 +4,7 @@ export const elementsNavMenu = [
   {
     id: uuidv4(),
     title: "Home",
-    path: "#home",
+    path: "/",
     isVisible: true,
     icon: "home",
   },
