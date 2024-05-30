@@ -1,0 +1,91 @@
+.titleWrapper {
+  display: flex;
+  align-items: baseline;
+}
+.heroTiltle {
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.heroSubTitle {
+  position: relative;
+  font-size: var(--h3-font-size);
+  padding-left: 70px;
+  margin-bottom: var(--mb-1);
+  color: var(--title-color);
+}
+.heroSubTitle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background-color: var(--title-color);
+}
+
+.iconHeroTitle {
+  font-size: 38px;
+  height: 38px;
+  margin-left: 0.4rem;
+}
+
+.heroDescription {
+  max-width: 400px;
+  margin-bottom: var(--mb-3);
+}
+
+.iconSend {
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 992px) {
+  .iconHeroTitle {
+    font-size: 28px;
+    height: 28px;
+  }
+
+  .heroSubTitle {
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 60px;
+    margin-bottom: var(--mb-1);
+    color: var(--title-color);
+  }
+  .heroSubTitle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: var(--title-color);
+  }
+
+  .heroDescription {
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/* @media screen and (max-width: 576px) {
+} */
+
+@media screen and (max-width: 350px) {
+  .iconHeroTitle {
+    font-size: 28px;
+    height: 28px;
+  }
+}

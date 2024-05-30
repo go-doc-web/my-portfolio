@@ -1,0 +1,14 @@
+.socialList {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+.icon:hover {
+  color: var(--title-color-dark);
+}

@@ -19,7 +19,7 @@ const Header = () => {
     <header className={css.header}>
       <nav className={`${css.nav} container`}>
         <a href="/" className={css.navLogo}>
-          Oleg Hubskiy
+          Hubskiy
         </a>
         <div className={classNames}>
           <NavMenuList />
